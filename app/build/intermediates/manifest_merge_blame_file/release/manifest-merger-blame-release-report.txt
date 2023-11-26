@@ -1,0 +1,206 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rzr.pay"
+4    android:versionCode="3050005"
+5    android:versionName="3.5.0.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="com.samsung.android.teelicense" />
+11-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:5:1-66
+11-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:5:18-63
+12
+13    <uses-feature
+13-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:6:1-84
+14        android:name="android.hardware.telephony"
+14-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:6:15-56
+15        android:required="false" />
+15-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:6:57-81
+16    <uses-feature
+16-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:7:1-77
+17        android:name="android.hardware.nfc"
+17-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:7:15-50
+18        android:required="true" />
+18-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:7:51-74
+19
+20    <uses-permission android:name="android.permission.VIBRATE" />
+20-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:8:1-61
+20-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:8:18-59
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:11:5-67
+21-->[ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:11:22-64
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->[ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:12:5-76
+22-->[ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:12:22-73
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:13:5-79
+23-->[ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:13:22-76
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->[ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:14:5-81
+24-->[ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:14:22-78
+25    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+25-->[ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:15:5-79
+25-->[ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:15:22-76
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+26-->[ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:16:5-81
+26-->[ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:16:22-78
+27    <uses-permission android:name="android.permission.NFC" />
+27-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:12:5-62
+27-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:12:22-59
+28    <uses-permission
+28-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:15:5-68
+29        android:name="android.permission.BLUETOOTH"
+29-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:15:22-65
+30        android:maxSdkVersion="30" />
+30-->[ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:13:9-35
+31    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+31-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:16:5-81
+31-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:16:22-78
+32    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+32-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:17:5-19:53
+32-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:18:9-61
+33    <uses-permission
+33-->[ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:14:5-16:38
+34        android:name="android.permission.BLUETOOTH_ADMIN"
+34-->[ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:15:9-58
+35        android:maxSdkVersion="30" /> <!-- Bluetooth permission from Android 12 -->
+35-->[ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:16:9-35
+36    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+36-->[ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:18:5-73
+36-->[ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:18:22-70
+37    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+37-->[ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:19:5-76
+37-->[ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:19:22-73
+38    <uses-permission android:name="com.google.android.things.permission.USE_PERIPHERAL_IO" />
+38-->[ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:21:5-94
+38-->[ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:21:22-91
+39    <uses-permission android:name="android.permission.CAMERA" />
+39-->[ssmobile-uicomponent-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\86a06fa545f7b21783133e26323051b3\transformed\jetified-ssmobile-uicomponent-engine-release\AndroidManifest.xml:11:5-65
+39-->[ssmobile-uicomponent-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\86a06fa545f7b21783133e26323051b3\transformed\jetified-ssmobile-uicomponent-engine-release\AndroidManifest.xml:11:22-62
+40
+41    <application
+41-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:10:1-26:15
+42        android:name="com.rzr.pay.SDKTesterApp"
+42-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:11:5-33
+43        android:allowBackup="true"
+43-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:12:5-31
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bd235ffed02b788fafe95dbc74e125e7\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
+45        android:extractNativeLibs="false"
+46        android:icon="@mipmap/ic_launcher"
+46-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:13:5-39
+47        android:label="@string/app_name"
+47-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:14:5-37
+48        android:roundIcon="@mipmap/ic_launcher_round"
+48-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:15:5-50
+49        android:supportsRtl="true"
+49-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:16:5-31
+50        android:theme="@style/AppTheme" >
+50-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:17:5-36
+51        <activity
+51-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:18:5-25:16
+52            android:name="com.rzr.pay.MainActivity"
+52-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:18:15-43
+53            android:exported="true" >
+53-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:19:9-32
+54            <intent-filter>
+54-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:20:9-24:25
+55                <action android:name="android.intent.action.MAIN" />
+55-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:21:13-65
+55-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:21:21-62
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:23:13-73
+57-->P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:23:23-70
+58            </intent-filter>
+59        </activity>
+60
+61        <service
+61-->[ssmobile-mpos-core-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\aa33ffc272349cabd15aaa37fd2a6dc7\transformed\jetified-ssmobile-mpos-core-release\AndroidManifest.xml:14:9-16:72
+62            android:name="my.com.softspace.SSMobileMPOSCore.tms.HeartbeatJobService"
+62-->[ssmobile-mpos-core-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\aa33ffc272349cabd15aaa37fd2a6dc7\transformed\jetified-ssmobile-mpos-core-release\AndroidManifest.xml:15:13-85
+63            android:permission="android.permission.BIND_JOB_SERVICE" />
+63-->[ssmobile-mpos-core-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\aa33ffc272349cabd15aaa37fd2a6dc7\transformed\jetified-ssmobile-mpos-core-release\AndroidManifest.xml:16:13-69
+64        <service
+64-->[ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:14:9-16:38
+65            android:name="my.com.softspace.SSMobileReaderEngine.integration.common.ReaderStatusNotifierService"
+65-->[ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:15:13-112
+66            android:enabled="true" />
+66-->[ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:16:13-35
+67
+68        <activity
+68-->[ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:18:9-21:20
+69            android:name="my.com.softspace.ssmpossdk.internal.activity.SignatureActivity"
+69-->[ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:19:13-90
+70            android:screenOrientation="landscape" >
+70-->[ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:20:13-50
+71        </activity>
+72
+73        <service
+73-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:22:9-24:72
+74            android:name="sspog.SSPOGJobService"
+74-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:23:13-49
+75            android:permission="android.permission.BIND_JOB_SERVICE" />
+75-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:24:13-69
+76        <service
+76-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:25:9-29:61
+77            android:name="sspog.internal.SSPOGIsolatedService"
+77-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:26:13-63
+78            android:enabled="true"
+78-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:27:13-35
+79            android:isolatedProcess="true"
+79-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:28:13-43
+80            android:process=":remoteProcessIsolatedCheck" />
+80-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:29:13-58
+81        <service
+81-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:30:9-34:67
+82            android:name="sspog.internal.SSPOGIsolatedNativeService"
+82-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:31:13-69
+83            android:enabled="true"
+83-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:32:13-35
+84            android:isolatedProcess="true"
+84-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:33:13-43
+85            android:process=":remoteProcessIsolatedNativeCheck" />
+85-->[ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:34:13-64
+86        <service
+86-->[androidx.room:room-runtime:2.2.5] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\6902c840d32129d3d95a4add461a1fb2\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+87            android:name="androidx.room.MultiInstanceInvalidationService"
+87-->[androidx.room:room-runtime:2.2.5] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\6902c840d32129d3d95a4add461a1fb2\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+88            android:directBootAware="true"
+88-->[androidx.room:room-runtime:2.2.5] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\6902c840d32129d3d95a4add461a1fb2\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+89            android:exported="false" />
+89-->[androidx.room:room-runtime:2.2.5] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\6902c840d32129d3d95a4add461a1fb2\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+90
+91        <provider
+91-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bc01f7555e623c1de1750f3a73dbedc9\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+92            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bc01f7555e623c1de1750f3a73dbedc9\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+93            android:authorities="com.rzr.pay.lifecycle-process"
+93-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bc01f7555e623c1de1750f3a73dbedc9\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+94            android:exported="false"
+94-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bc01f7555e623c1de1750f3a73dbedc9\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+95            android:multiprocess="true" />
+95-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bc01f7555e623c1de1750f3a73dbedc9\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+96
+97        <activity
+97-->[com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\8b0ff57a4b753e06eb08ed0ad99e974c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+98            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+98-->[com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\8b0ff57a4b753e06eb08ed0ad99e974c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+99            android:exported="false"
+99-->[com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\8b0ff57a4b753e06eb08ed0ad99e974c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+100-->[com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\8b0ff57a4b753e06eb08ed0ad99e974c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+101
+102        <meta-data
+102-->[com.google.android.gms:play-services-basement:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0bbbfb5cad0e747d9da89831aa52a132\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+103            android:name="com.google.android.gms.version"
+103-->[com.google.android.gms:play-services-basement:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0bbbfb5cad0e747d9da89831aa52a132\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+104            android:value="@integer/google_play_services_version" />
+104-->[com.google.android.gms:play-services-basement:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0bbbfb5cad0e747d9da89831aa52a132\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+105    </application>
+106
+107</manifest>

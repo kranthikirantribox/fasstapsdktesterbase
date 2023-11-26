@@ -1,0 +1,419 @@
+-- Merging decision tree log ---
+manifest
+ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:2:1-23:12
+MERGED from [ssmobile-fasstap-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\eead4beb7b9443307ed589430f0ad79f\transformed\jetified-ssmobile-fasstap-sdk-release\AndroidManifest.xml:2:1-9:12
+MERGED from [ssmobile-fasstapsdk-wrapper-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\74f8987f73234d516714a8b03220272a\transformed\jetified-ssmobile-fasstapsdk-wrapper-release\AndroidManifest.xml:2:1-9:12
+MERGED from [ssmobile-mpos-core-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\aa33ffc272349cabd15aaa37fd2a6dc7\transformed\jetified-ssmobile-mpos-core-release\AndroidManifest.xml:2:1-19:12
+MERGED from [ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:2:1-24:12
+MERGED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:2:1-37:12
+MERGED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:2:1-28:12
+MERGED from [ssmobile-tee-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\37cba192fda30996a0923f919a366dae\transformed\jetified-ssmobile-tee-reader-engine-release\AndroidManifest.xml:2:1-13:12
+MERGED from [ssmobile-third-party-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\2651f0cec8f23a88ad829898da284228\transformed\jetified-ssmobile-third-party-engine-release\AndroidManifest.xml:2:1-13:12
+MERGED from [ssmobile-uicomponent-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\86a06fa545f7b21783133e26323051b3\transformed\jetified-ssmobile-uicomponent-engine-release\AndroidManifest.xml:2:1-19:12
+MERGED from [VisaSensoryBranding.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\fda419f32e09ce6f0f97db64075ef381\transformed\jetified-VisaSensoryBranding\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0e41e131fd7ebf657d7a917a22264a85\transformed\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\a8be68e9946decf1d09621407c75f39f\transformed\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.0.2] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\02e689971f9b3962d92b91e63d0885f2\transformed\jetified-integrity-1.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\17b461af709ac85d5842a92e14b65c5d\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\906b414e06076eaaa45b1f09a0196d34\transformed\jetified-rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\6902c840d32129d3d95a4add461a1fb2\transformed\room-runtime-2.2.5\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bf7bbe5ad2498c4cb7c4e2fb8fd6c118\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.timber:timber:4.7.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\e24946e886fc116270c4b80b4ce22513\transformed\jetified-timber-4.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bc01f7555e623c1de1750f3a73dbedc9\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d4e97a708013e30052338a91f59c4461\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\8b0ff57a4b753e06eb08ed0ad99e974c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\51f512cbb2e063fa0dae9a9d5a90d419\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0bbbfb5cad0e747d9da89831aa52a132\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\3f4dead8b3ef83dcb754429f49a52565\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\fe8f54d29867022400ed442a7dbba3a1\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\b62ddb04a0776899e01073016189e5ed\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\762a4b619aecee6fa5788153d76edad7\transformed\sqlite-framework-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\c081f5ccff88e1fc6d1b6dc540462212\transformed\sqlite-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\2a2f0f773d59c64f6f8bc11e14eff0bb\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\1c693742bb4086ad92301b75afe6e0c9\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\e9cf97a40211b7d0c3c1498a03b70b42\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\24b6e5761f23c9f4ca9225124217ccc4\transformed\core-runtime-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\6cc1e7dc70841b0f5a401a09356e1cbc\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0503a6869397541bf1e9dc42ecf3d7e7\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\e4f156a38e1ad3a9367df351bee7fe08\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\b25742130c03f5f9626973e6044baad1\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\aae387477b281deb9556c6585ed258b1\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bd235ffed02b788fafe95dbc74e125e7\transformed\core-1.2.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\916bc72f08584795bc9201bf21e118ed\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d586d832c49c1af9628fbba5e1be5ba0\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\c298b24d17262b3c7c07f51fcef0beb8\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\ec0853b8c6f18f4a2eae7a9e690c1490\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\58127d6f36b53dfde8722fd817ea3639\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:3:1-22
+		INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml
+		INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#com.samsung.android.teelicense
+ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:5:1-66
+	android:name
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:5:18-63
+uses-feature#android.hardware.telephony
+ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:6:1-84
+	android:required
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:6:57-81
+	android:name
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:6:15-56
+uses-feature#android.hardware.nfc
+ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:7:1-77
+	android:required
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:7:51-74
+	android:name
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:7:15-50
+uses-permission#android.permission.VIBRATE
+ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:8:1-61
+MERGED from [VisaSensoryBranding.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\fda419f32e09ce6f0f97db64075ef381\transformed\jetified-VisaSensoryBranding\AndroidManifest.xml:9:5-66
+MERGED from [VisaSensoryBranding.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\fda419f32e09ce6f0f97db64075ef381\transformed\jetified-VisaSensoryBranding\AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:8:18-59
+application
+ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:10:1-26:15
+MERGED from [ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:18:5-21:19
+MERGED from [ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:18:5-21:19
+MERGED from [ssmobile-mpos-core-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\aa33ffc272349cabd15aaa37fd2a6dc7\transformed\jetified-ssmobile-mpos-core-release\AndroidManifest.xml:11:5-17:19
+MERGED from [ssmobile-mpos-core-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\aa33ffc272349cabd15aaa37fd2a6dc7\transformed\jetified-ssmobile-mpos-core-release\AndroidManifest.xml:11:5-17:19
+MERGED from [ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:13:5-22:19
+MERGED from [ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:13:5-22:19
+MERGED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:21:5-35:19
+MERGED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:21:5-35:19
+MERGED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:23:5-26:19
+MERGED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:23:5-26:19
+MERGED from [ssmobile-uicomponent-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\86a06fa545f7b21783133e26323051b3\transformed\jetified-ssmobile-uicomponent-engine-release\AndroidManifest.xml:14:5-17:19
+MERGED from [ssmobile-uicomponent-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\86a06fa545f7b21783133e26323051b3\transformed\jetified-ssmobile-uicomponent-engine-release\AndroidManifest.xml:14:5-17:19
+MERGED from [VisaSensoryBranding.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\fda419f32e09ce6f0f97db64075ef381\transformed\jetified-VisaSensoryBranding\AndroidManifest.xml:11:5-12:19
+MERGED from [VisaSensoryBranding.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\fda419f32e09ce6f0f97db64075ef381\transformed\jetified-VisaSensoryBranding\AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\a8be68e9946decf1d09621407c75f39f\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\a8be68e9946decf1d09621407c75f39f\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.play:integrity:1.0.2] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\02e689971f9b3962d92b91e63d0885f2\transformed\jetified-integrity-1.0.2\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.0.2] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\02e689971f9b3962d92b91e63d0885f2\transformed\jetified-integrity-1.0.2\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\17b461af709ac85d5842a92e14b65c5d\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\17b461af709ac85d5842a92e14b65c5d\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\6902c840d32129d3d95a4add461a1fb2\transformed\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\6902c840d32129d3d95a4add461a1fb2\transformed\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [com.jakewharton.timber:timber:4.7.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\e24946e886fc116270c4b80b4ce22513\transformed\jetified-timber-4.7.0\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\e24946e886fc116270c4b80b4ce22513\transformed\jetified-timber-4.7.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bc01f7555e623c1de1750f3a73dbedc9\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bc01f7555e623c1de1750f3a73dbedc9\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\8b0ff57a4b753e06eb08ed0ad99e974c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\8b0ff57a4b753e06eb08ed0ad99e974c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\51f512cbb2e063fa0dae9a9d5a90d419\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\51f512cbb2e063fa0dae9a9d5a90d419\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0bbbfb5cad0e747d9da89831aa52a132\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0bbbfb5cad0e747d9da89831aa52a132\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bd235ffed02b788fafe95dbc74e125e7\transformed\core-1.2.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bd235ffed02b788fafe95dbc74e125e7\transformed\core-1.2.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d586d832c49c1af9628fbba5e1be5ba0\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d586d832c49c1af9628fbba5e1be5ba0\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bd235ffed02b788fafe95dbc74e125e7\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:16:5-31
+	android:label
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:14:5-37
+	android:roundIcon
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:15:5-50
+	android:icon
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:13:5-39
+	android:allowBackup
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:12:5-31
+	android:theme
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:17:5-36
+	android:name
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:11:5-33
+activity#com.rzr.pay.MainActivity
+ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:18:5-25:16
+	android:exported
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:19:9-32
+	android:name
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:18:15-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:20:9-24:25
+action#android.intent.action.MAIN
+ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:21:13-65
+	android:name
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:21:21-62
+category#android.intent.category.LAUNCHER
+ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:23:13-73
+	android:name
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml:23:23-70
+uses-sdk
+INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml
+INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml
+MERGED from [ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:7:5-9:41
+MERGED from [ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:7:5-9:41
+MERGED from [ssmobile-fasstap-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\eead4beb7b9443307ed589430f0ad79f\transformed\jetified-ssmobile-fasstap-sdk-release\AndroidManifest.xml:5:5-7:41
+MERGED from [ssmobile-fasstap-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\eead4beb7b9443307ed589430f0ad79f\transformed\jetified-ssmobile-fasstap-sdk-release\AndroidManifest.xml:5:5-7:41
+MERGED from [ssmobile-fasstapsdk-wrapper-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\74f8987f73234d516714a8b03220272a\transformed\jetified-ssmobile-fasstapsdk-wrapper-release\AndroidManifest.xml:5:5-7:41
+MERGED from [ssmobile-fasstapsdk-wrapper-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\74f8987f73234d516714a8b03220272a\transformed\jetified-ssmobile-fasstapsdk-wrapper-release\AndroidManifest.xml:5:5-7:41
+MERGED from [ssmobile-mpos-core-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\aa33ffc272349cabd15aaa37fd2a6dc7\transformed\jetified-ssmobile-mpos-core-release\AndroidManifest.xml:7:5-9:41
+MERGED from [ssmobile-mpos-core-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\aa33ffc272349cabd15aaa37fd2a6dc7\transformed\jetified-ssmobile-mpos-core-release\AndroidManifest.xml:7:5-9:41
+MERGED from [ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:7:5-9:41
+MERGED from [ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:7:5-9:41
+MERGED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:8:5-10:41
+MERGED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:8:5-10:41
+MERGED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:7:5-9:41
+MERGED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:7:5-9:41
+MERGED from [ssmobile-tee-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\37cba192fda30996a0923f919a366dae\transformed\jetified-ssmobile-tee-reader-engine-release\AndroidManifest.xml:7:5-9:41
+MERGED from [ssmobile-tee-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\37cba192fda30996a0923f919a366dae\transformed\jetified-ssmobile-tee-reader-engine-release\AndroidManifest.xml:7:5-9:41
+MERGED from [ssmobile-third-party-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\2651f0cec8f23a88ad829898da284228\transformed\jetified-ssmobile-third-party-engine-release\AndroidManifest.xml:7:5-9:41
+MERGED from [ssmobile-third-party-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\2651f0cec8f23a88ad829898da284228\transformed\jetified-ssmobile-third-party-engine-release\AndroidManifest.xml:7:5-9:41
+MERGED from [ssmobile-uicomponent-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\86a06fa545f7b21783133e26323051b3\transformed\jetified-ssmobile-uicomponent-engine-release\AndroidManifest.xml:7:5-9:41
+MERGED from [ssmobile-uicomponent-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\86a06fa545f7b21783133e26323051b3\transformed\jetified-ssmobile-uicomponent-engine-release\AndroidManifest.xml:7:5-9:41
+MERGED from [VisaSensoryBranding.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\fda419f32e09ce6f0f97db64075ef381\transformed\jetified-VisaSensoryBranding\AndroidManifest.xml:5:5-7:41
+MERGED from [VisaSensoryBranding.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\fda419f32e09ce6f0f97db64075ef381\transformed\jetified-VisaSensoryBranding\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0e41e131fd7ebf657d7a917a22264a85\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0e41e131fd7ebf657d7a917a22264a85\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\a8be68e9946decf1d09621407c75f39f\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\a8be68e9946decf1d09621407c75f39f\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.play:integrity:1.0.2] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\02e689971f9b3962d92b91e63d0885f2\transformed\jetified-integrity-1.0.2\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.0.2] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\02e689971f9b3962d92b91e63d0885f2\transformed\jetified-integrity-1.0.2\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\17b461af709ac85d5842a92e14b65c5d\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\17b461af709ac85d5842a92e14b65c5d\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\906b414e06076eaaa45b1f09a0196d34\transformed\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\906b414e06076eaaa45b1f09a0196d34\transformed\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\6902c840d32129d3d95a4add461a1fb2\transformed\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\6902c840d32129d3d95a4add461a1fb2\transformed\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bf7bbe5ad2498c4cb7c4e2fb8fd6c118\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bf7bbe5ad2498c4cb7c4e2fb8fd6c118\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.timber:timber:4.7.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\e24946e886fc116270c4b80b4ce22513\transformed\jetified-timber-4.7.0\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\e24946e886fc116270c4b80b4ce22513\transformed\jetified-timber-4.7.0\AndroidManifest.xml:5:5-43
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bc01f7555e623c1de1750f3a73dbedc9\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bc01f7555e623c1de1750f3a73dbedc9\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d4e97a708013e30052338a91f59c4461\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d4e97a708013e30052338a91f59c4461\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\8b0ff57a4b753e06eb08ed0ad99e974c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\8b0ff57a4b753e06eb08ed0ad99e974c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\51f512cbb2e063fa0dae9a9d5a90d419\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\51f512cbb2e063fa0dae9a9d5a90d419\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0bbbfb5cad0e747d9da89831aa52a132\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0bbbfb5cad0e747d9da89831aa52a132\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\3f4dead8b3ef83dcb754429f49a52565\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\3f4dead8b3ef83dcb754429f49a52565\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\fe8f54d29867022400ed442a7dbba3a1\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\fe8f54d29867022400ed442a7dbba3a1\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\b62ddb04a0776899e01073016189e5ed\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\b62ddb04a0776899e01073016189e5ed\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\762a4b619aecee6fa5788153d76edad7\transformed\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\762a4b619aecee6fa5788153d76edad7\transformed\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\c081f5ccff88e1fc6d1b6dc540462212\transformed\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\c081f5ccff88e1fc6d1b6dc540462212\transformed\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\2a2f0f773d59c64f6f8bc11e14eff0bb\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\2a2f0f773d59c64f6f8bc11e14eff0bb\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\1c693742bb4086ad92301b75afe6e0c9\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\1c693742bb4086ad92301b75afe6e0c9\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\e9cf97a40211b7d0c3c1498a03b70b42\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\e9cf97a40211b7d0c3c1498a03b70b42\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\24b6e5761f23c9f4ca9225124217ccc4\transformed\core-runtime-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\24b6e5761f23c9f4ca9225124217ccc4\transformed\core-runtime-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\6cc1e7dc70841b0f5a401a09356e1cbc\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\6cc1e7dc70841b0f5a401a09356e1cbc\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0503a6869397541bf1e9dc42ecf3d7e7\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0503a6869397541bf1e9dc42ecf3d7e7\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\e4f156a38e1ad3a9367df351bee7fe08\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\e4f156a38e1ad3a9367df351bee7fe08\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\b25742130c03f5f9626973e6044baad1\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\b25742130c03f5f9626973e6044baad1\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\aae387477b281deb9556c6585ed258b1\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\aae387477b281deb9556c6585ed258b1\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bd235ffed02b788fafe95dbc74e125e7\transformed\core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bd235ffed02b788fafe95dbc74e125e7\transformed\core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\916bc72f08584795bc9201bf21e118ed\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\916bc72f08584795bc9201bf21e118ed\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d586d832c49c1af9628fbba5e1be5ba0\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d586d832c49c1af9628fbba5e1be5ba0\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\c298b24d17262b3c7c07f51fcef0beb8\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\c298b24d17262b3c7c07f51fcef0beb8\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\ec0853b8c6f18f4a2eae7a9e690c1490\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\ec0853b8c6f18f4a2eae7a9e690c1490\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\58127d6f36b53dfde8722fd817ea3639\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\58127d6f36b53dfde8722fd817ea3639\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml
+INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml
+		INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml
+		ADDED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml
+		INJECTED from P:\RzerTop\Final Code\fasstapsdktester\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:11:5-67
+MERGED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:13:5-67
+MERGED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from [ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from [ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:13:5-79
+MERGED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:20:5-79
+MERGED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from [ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:14:5-81
+MERGED from [ssmobile-uicomponent-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\86a06fa545f7b21783133e26323051b3\transformed\jetified-ssmobile-uicomponent-engine-release\AndroidManifest.xml:12:5-81
+MERGED from [ssmobile-uicomponent-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\86a06fa545f7b21783133e26323051b3\transformed\jetified-ssmobile-uicomponent-engine-release\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from [ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:15:5-79
+MERGED from [ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:11:5-79
+MERGED from [ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:11:5-79
+MERGED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:14:5-79
+MERGED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from [ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from [ssmobile-androidutil-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d0dd2bf66e107f944070fa94db7d9325\transformed\jetified-ssmobile-androidutil-engine-release\AndroidManifest.xml:16:22-78
+service#my.com.softspace.SSMobileMPOSCore.tms.HeartbeatJobService
+ADDED from [ssmobile-mpos-core-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\aa33ffc272349cabd15aaa37fd2a6dc7\transformed\jetified-ssmobile-mpos-core-release\AndroidManifest.xml:14:9-16:72
+	android:permission
+		ADDED from [ssmobile-mpos-core-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\aa33ffc272349cabd15aaa37fd2a6dc7\transformed\jetified-ssmobile-mpos-core-release\AndroidManifest.xml:16:13-69
+	android:name
+		ADDED from [ssmobile-mpos-core-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\aa33ffc272349cabd15aaa37fd2a6dc7\transformed\jetified-ssmobile-mpos-core-release\AndroidManifest.xml:15:13-85
+service#my.com.softspace.SSMobileReaderEngine.integration.common.ReaderStatusNotifierService
+ADDED from [ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:14:9-16:38
+	android:enabled
+		ADDED from [ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:16:13-35
+	android:name
+		ADDED from [ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:15:13-112
+activity#my.com.softspace.ssmpossdk.internal.activity.SignatureActivity
+ADDED from [ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:18:9-21:20
+	android:screenOrientation
+		ADDED from [ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:20:13-50
+	android:name
+		ADDED from [ssmobile-mpos-sdk-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\09768adfb8985ebbb8ccfe890a029648\transformed\jetified-ssmobile-mpos-sdk-release\AndroidManifest.xml:19:13-90
+uses-permission#android.permission.NFC
+ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:12:5-62
+MERGED from [ssmobile-tee-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\37cba192fda30996a0923f919a366dae\transformed\jetified-ssmobile-tee-reader-engine-release\AndroidManifest.xml:11:5-62
+MERGED from [ssmobile-tee-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\37cba192fda30996a0923f919a366dae\transformed\jetified-ssmobile-tee-reader-engine-release\AndroidManifest.xml:11:5-62
+	android:name
+		ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:12:22-59
+uses-permission#android.permission.BLUETOOTH
+ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:15:5-68
+MERGED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:11:5-13:38
+MERGED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:11:5-13:38
+MERGED from [ssmobile-third-party-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\2651f0cec8f23a88ad829898da284228\transformed\jetified-ssmobile-third-party-engine-release\AndroidManifest.xml:11:5-68
+MERGED from [ssmobile-third-party-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\2651f0cec8f23a88ad829898da284228\transformed\jetified-ssmobile-third-party-engine-release\AndroidManifest.xml:11:5-68
+	android:maxSdkVersion
+		ADDED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:13:9-35
+	android:name
+		ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:15:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:17:5-19:53
+	tools:ignore
+		ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:19:9-50
+	android:name
+		ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:18:9-61
+service#sspog.SSPOGJobService
+ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:22:9-24:72
+	android:permission
+		ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:24:13-69
+	android:name
+		ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:23:13-49
+service#sspog.internal.SSPOGIsolatedService
+ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:25:9-29:61
+	android:process
+		ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:29:13-58
+	android:enabled
+		ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:27:13-35
+	android:isolatedProcess
+		ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:28:13-43
+	android:name
+		ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:26:13-63
+service#sspog.internal.SSPOGIsolatedNativeService
+ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:30:9-34:67
+	android:process
+		ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:34:13-64
+	android:enabled
+		ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:32:13-35
+	android:isolatedProcess
+		ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:33:13-43
+	android:name
+		ADDED from [ssmobile-pog-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\438d17ab8969958089a6fab4c47fa84b\transformed\jetified-ssmobile-pog-engine-release\AndroidManifest.xml:31:13-69
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:14:5-16:38
+	android:maxSdkVersion
+		ADDED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:16:9-35
+	android:name
+		ADDED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:15:9-58
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:18:5-73
+	android:name
+		ADDED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:18:22-70
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:19:22-73
+uses-permission#com.google.android.things.permission.USE_PERIPHERAL_IO
+ADDED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:21:5-94
+	android:name
+		ADDED from [ssmobile-reader-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\364f03d06411788e24922ca464ffd8ee\transformed\jetified-ssmobile-reader-engine-release\AndroidManifest.xml:21:22-91
+uses-permission#android.permission.CAMERA
+ADDED from [ssmobile-uicomponent-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\86a06fa545f7b21783133e26323051b3\transformed\jetified-ssmobile-uicomponent-engine-release\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [ssmobile-uicomponent-engine-release.aar] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\86a06fa545f7b21783133e26323051b3\transformed\jetified-ssmobile-uicomponent-engine-release\AndroidManifest.xml:11:22-62
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\6902c840d32129d3d95a4add461a1fb2\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\6902c840d32129d3d95a4add461a1fb2\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\6902c840d32129d3d95a4add461a1fb2\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\6902c840d32129d3d95a4add461a1fb2\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bc01f7555e623c1de1750f3a73dbedc9\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bc01f7555e623c1de1750f3a73dbedc9\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bc01f7555e623c1de1750f3a73dbedc9\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bc01f7555e623c1de1750f3a73dbedc9\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\bc01f7555e623c1de1750f3a73dbedc9\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\8b0ff57a4b753e06eb08ed0ad99e974c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\8b0ff57a4b753e06eb08ed0ad99e974c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\8b0ff57a4b753e06eb08ed0ad99e974c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\8b0ff57a4b753e06eb08ed0ad99e974c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0bbbfb5cad0e747d9da89831aa52a132\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0bbbfb5cad0e747d9da89831aa52a132\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0bbbfb5cad0e747d9da89831aa52a132\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58

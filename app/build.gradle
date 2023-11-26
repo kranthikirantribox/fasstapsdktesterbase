@@ -1,0 +1,83 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    buildFeatures {
+        buildConfig = true
+    }
+    compileSdkVersion 33
+    buildToolsVersion "30.0.3"
+    defaultConfig {
+        applicationId "com.rzr.pay"
+        minSdkVersion 26
+        targetSdkVersion 33
+        versionCode 3050005
+        versionName "3.5.0.5"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        resValue 'string', 'app_name', 'Razer'
+        manifestPlaceholders = [app_name: 'Razer']
+                buildConfigField 'String', 'FLAVOR_environment', '"prod"'
+            buildConfigField 'String', 'ACCESS_KEY', '"hk9WeEZQIerqT9GcNF32BBanztoBuX/V4K/dJFZ3fsofAg=="' // Visa, Master, MCCS, UPI
+            buildConfigField 'String', 'SECRET_KEY', '"nz5m2U2mSwU+wN8iNvjdAunK793oktzUknYvKyfkzXE="' // Visa, Master, MCCS, UPI
+            buildConfigField 'String', 'ATTESTATION_HOST', '"https://tamserver.fasspay.com:9441/fasspay/api"'
+            buildConfigField 'String', 'ATTESTATION_CERT_PINNING', '"sha256/Pnf3MmT8TYBTdSpaDJ1cPY/wZo3UkeQgJUXnOwhTeLc="'
+            buildConfigField 'String', 'GOOGLE_API_KEY', '"ermDQ53dFXS5suSu3SGNHrP2kFUnUMskcNnFe3lSqwc="'
+    }
+
+    signingConfigs {
+        sskey {
+            keyAlias 'rzr-tst-pay'
+            keyPassword "android"
+            storeFile file('Q:/keys/rzr-tst-pay.keystore')
+            storePassword "android"
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+            minifyEnabled false
+            signingConfig signingConfigs.sskey
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.sskey
+        }
+    }
+}
+
+dependencies {
+    debugImplementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'], excludes: ['ssmobile-pog-engine-release.aar'])
+    releaseImplementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'], excludes: ['ssmobile-pog-engine-debug.aar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    // SSFasstapSDK dependencies
+    implementation 'com.google.android.play:integrity:1.0.2'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.19'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.14.7'
+    implementation 'androidx.room:room-runtime:2.2.5'
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
+    implementation 'com.jakewharton.timber:timber:4.7.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "androidx.lifecycle:lifecycle-process:2.2.0"
+}

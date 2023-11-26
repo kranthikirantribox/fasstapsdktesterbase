@@ -1,0 +1,19 @@
+// #### Version 2.0 (<BundleVersion>.<fileVersion>)
+{
+  "MANIFEST": {
+    // Profiles
+    "readerProfile": ["e1c8c0dad379f2e26411a893c5681e5e80d66a27"],
+    "readerData": ["12C1C0BF0CA7183F5BEF56C98957783BBFB3FA7F"],
+    "readerInit": ["496580D7502EFECE0AB2E0BA243F775A8273093A"],
+    // Data-Dictionaries
+    "v3DataDictionary": ["CF9031CDF06596F1866B4D7DDBD25F2436DD45D8"],
+    "terminalDictionary": ["B76DB564F0198402D939FA0DFE21990368173E78"],
+    "referenceTags": ["C36BD6DEC5743E23538E91FA51872FE845850C93"],
+    // Support files
+    "capKeys": ["958fecbccd402029e40a7c8c5aba57d4e3db388e"],
+    "certificateRevocationList": ["B3D66F5B50F093B552E588F50A6735FF538D6E02"],
+    "defaultTerminalData": ["ED65498D983AFCFFD8B51FB5CD8F9F72A4C975DF"],
+    "exceptionFile": ["01BE9733D6070100621E3F7174E8EC2A131993B1"],
+    "additionalInfo":["E91B539DBE33FBB1807F2CA7CE6047C916EDCB83"]
+  }
+}

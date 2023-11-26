@@ -1,0 +1,41 @@
+// #### Version 2.0 (<BundleVersion>.<fileVersion>)
+// NOTE:
+// terminalTags format is "name:value". name must NOT be modified. value must in hex conforming to the length of existing value
+{"READER_PROFILES" : [{
+    "name": "MPOS",
+    "type": "Multi",
+    "initReaderData": "initNoData",
+    "contactlessMCProfile": "PPS_MChip1",
+    "terminalTags": ["Additional Terminal Capabilities:7000802000",
+        "Interface Device Serial Number:3031303031313031",
+        "Merchant Category Code:0052",
+        "Merchant Name and Location:534F46545350414345",  // Merchant Name : Location
+        "Terminal Country Code:0458",                         // ISO 3116 Country Code for Malaysia
+        "Terminal Identification:3130313130303130",
+        "Transaction Category Code:52",                      // Retail Sale
+        "Terminal Type:21",                                  // Online only merchant attended
+        "Transaction Type:TRANSACTION_TYPE_PURCHASE"]
+}, {
+    "name": "PPS_MChip1",
+    "show": "V3Test",
+    "type": "Single",
+    "initReaderData": "initMposTerm",
+    "transactionData": [{
+        "transactionType": [TRANSACTION_TYPE_PURCHASE, TRANSACTION_TYPE_PURCHASE_WITH_CASHBACK, TRANSACTION_TYPE_REFUND],
+        "supportedCombinations": [{
+            "aid": "A0000000041010",
+            "minlen": 7,
+            "product": "MasterCard credit or debit",
+            "asi": true,
+            "kernelID": "02",
+            "data": ["ContactlessMposPilot", "KernelConfig:B0", "CVMCapabilityCVMRequired:60", "TerminalRiskManagementData:6C00800000000000", "ReaderCTLOndevice:999999999999", "ReaderCTLNoOndevice:999999999999", "TACDefault:F45080800C", "TACDenial:0000000000", "TACOnline:F45080800C"]
+        }, {
+            "aid": "A0000000043060",
+            "minlen": 7,
+            "product": "Maestro",
+            "asi": true,
+            "kernelID": "02",
+            "data": ["ContactlessMposPilot", "KernelConfig:B0", "CVMCapabilityCVMRequired:60", "TerminalRiskManagementData:6C00800000000000", "ReaderCTLOndevice:999999999999", "ReaderCTLNoOndevice:999999999999", "TACDefault:F45080800C", "TACDenial:0000000000", "TACOnline:F45080800C"]
+        }]
+    }]
+}]}

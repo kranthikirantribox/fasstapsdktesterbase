@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:src="@drawable/tap_nfc_ic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/text_status"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_editor_absoluteX="10dp"
+        android:text="Please Tap Your Card"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints" />
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="10dp">
+
+
+        <LinearLayout
+            android:id="@+id/layout_config"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/layout_button"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/layout_user_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvUserID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:minWidth="150dp"
+                    android:text="User ID" />
+
+                <!-- UAT !-->
+                <!--                <EditText-->
+                <!--                    android:id="@+id/edtUserID"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="45dp"-->
+                <!--                    android:inputType="text"-->
+                <!--                    android:minWidth="200dp"-->
+                <!--                    android:text="mpos1"/>-->
+
+                <!-- UAT - MY !-->
+                <EditText
+                    android:id="@+id/edtUserID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:inputType="text"
+                    android:minWidth="200dp"
+                    android:text="3C1l2oCFjttjzoKQmeNg" />
+
+                <!-- UAT - SG !-->
+                <!--                <EditText-->
+                <!--                    android:id="@+id/edtUserID"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="45dp"-->
+                <!--                    android:inputType="text"-->
+                <!--                    android:minWidth="200dp"-->
+                <!--                    android:text="a375eb9c880e4a1d9589"/>-->
+
+                <!-- UAT - PH !-->
+                <!--                <EditText-->
+                <!--                    android:id="@+id/edtUserID"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="45dp"-->
+                <!--                    android:inputType="text"-->
+                <!--                    android:minWidth="200dp"-->
+                <!--                    android:text="97c0621cce4a4e438cef"/>-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/layout_developer_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvDeveloperID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:minWidth="150dp"
+                    android:text="Developer ID" />
+
+                <!-- UAT !-->
+                <EditText
+                    android:id="@+id/edtDeveloperID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:inputType="text"
+                    android:minWidth="200dp"
+                    android:text="6fEUhytynOkQq3e" />
+
+                <!-- UAT - SG !-->
+                <!--                <EditText-->
+                <!--                    android:id="@+id/edtDeveloperID"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="45dp"-->
+                <!--                    android:inputType="text"-->
+                <!--                    android:minWidth="200dp"-->
+                <!--                    android:text="KgrDiYb7rfFZLcP"/>-->
+
+                <!-- UAT - PH !-->
+                <!--                <EditText-->
+                <!--                    android:id="@+id/edtDeveloperID"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="45dp"-->
+                <!--                    android:inputType="text"-->
+                <!--                    android:minWidth="200dp"-->
+                <!--                    android:text="QOlbuTI8zBzCUsT"/>-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/layout_ref_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvRefNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:minWidth="150dp"
+                    android:text="Reference No" />
+
+                <EditText
+                    android:id="@+id/edtRefNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:inputType="text"
+                    android:minWidth="200dp"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/layout_amount_auth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvAmtAuth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:minWidth="150dp"
+                    android:text="Amount, Authorised" />
+
+                <EditText
+                    android:id="@+id/edtAmtAuth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:inputType="number"
+                    android:minWidth="200dp"
+                    android:text="101" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/layout_trx_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvTrxID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:minWidth="150dp"
+                    android:text="Transaction ID" />
+
+                <EditText
+                    android:id="@+id/edtTrxID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:inputType="number"
+                    android:minWidth="200dp"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/tvLogArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom"
+                    android:inputType="textMultiLine"
+                    android:padding="3dp"
+                    android:scrollbars="vertical" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/layout_button2"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btnClearLog"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Clear\nLog" />
+
+            <Button
+                android:id="@+id/btnStartTrx"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="Start Transaction" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/layout_button3"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btnVoidTrx"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="Void\nTransaction" />
+
+            <Button
+                android:id="@+id/btnGetTransactionStatus"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="Transaction\nStatus" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btnRefreshToken"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:gravity="center"
+                android:text="Refresh\nToken" />
+
+            <Button
+                android:id="@+id/btnSettlement"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="Perform\nSettlement"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/after_transferstatus"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:gravity="center"
+                android:text="After Transferstatus"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btnRefundTrx"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="Refund\nTransaction"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnUploadSignature"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="Upload\nSignature"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_layoutSensoryBranding"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.visa.SensoryBrandingView
+                android:id="@+id/activity_visaSensoryBrandingView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <VideoView
+                android:id="@+id/activity_sensoryBrandingVideoView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

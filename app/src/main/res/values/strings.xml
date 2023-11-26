@@ -1,0 +1,5 @@
+<resources>
+    <string name="ALERT_NFC_NOT_ENABLE">NFC is not enabled. Please enable NFC in the settings screen. </string>
+    <string name="BTN_SETTINGS">Settings</string>
+    <string name="ALERT_NOT_SUPPORTED_MSG">Not Supported.</string>
+</resources>
