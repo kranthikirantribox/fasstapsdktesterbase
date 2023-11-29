@@ -27,6 +27,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.VideoView;
 
 import androidx.appcompat.app.AlertDialog;
@@ -106,7 +107,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         initUI();
-        initFasstapMPOSSDK();
+
 
     }
 
@@ -141,7 +142,6 @@ public class MainActivity extends AppCompatActivity
         Channel = getIntent().getStringExtra("Channel");
         Tid = getIntent().getStringExtra("Tid");
         data_value = getIntent().getStringExtra("Log");
-
         edtAmtAuth = findViewById(R.id.edtAmtAuth);
         edtUserID = findViewById(R.id.edtUserID);
         edtDeveloperID = findViewById(R.id.edtDeveloperID);
@@ -185,11 +185,42 @@ public class MainActivity extends AppCompatActivity
                 }
             }
         });
+        try {
+            if (Amount.equalsIgnoreCase("0")) {
+                Toast.makeText(this, "Enter amount is Zero", Toast.LENGTH_LONG).show();
+                dismissProgressDialog();
+            }
 
-        if (Amount != null) {
-            // Do something with the string
-            // For example, display it in a TextView
-            edtAmtAuth.setText(Amount);
+            if (Tid.isEmpty()) {
+                Toast.makeText(this, "Please enter credentials", Toast.LENGTH_LONG).show();
+                dismissProgressDialog();
+            }
+        } catch (Exception e) {
+            // Handle other types of exceptions that might occur
+            e.printStackTrace(); // Print the stack trace for debugging
+            // You might want to display an error message to the user or take other appropriate actions.
+            Toast.makeText(this, "Directly cannot Accessible", Toast.LENGTH_LONG).show();
+            dismissProgressDialog();
+        }
+
+        if (Amount != null && Tid != null) {
+            try {
+                // Do something with the string
+                // For example, display it in a TextView
+                String[] tidArray = Tid.split(",");
+                edtAmtAuth.setText(Amount);
+                edtUserID.setText(tidArray[0]);
+                edtDeveloperID.setText(tidArray[1]);
+                initFasstapMPOSSDK();
+            } catch (ArrayIndexOutOfBoundsException e) {
+                // Handle the exception caused by accessing an index that doesn't exist in the array
+                e.printStackTrace(); // Print the stack trace for debugging
+                // You might want to display an error message to the user or take other appropriate actions.
+            } catch (Exception e) {
+                // Handle other types of exceptions that might occur
+                e.printStackTrace(); // Print the stack trace for debugging
+                // You might want to display an error message to the user or take other appropriate actions.
+            }
         }
 
         tvLogArea.setMovementMethod(new ScrollingMovementMethod());
